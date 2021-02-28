@@ -13,7 +13,7 @@ import com.lasingwu.baselibrary.LoaderEnum;
  * Created by 拉丁吴 on 2017/6/25.
  */
 
-public class MainApplication extends Application {
+class MainApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();

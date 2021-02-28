@@ -1,7 +1,7 @@
 package com.ladingwu.imageloaderframework;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -47,40 +47,39 @@ public class MainActivity extends AppCompatActivity {
             }
         },2000);
 
-        ImageLoaderOptions options=new ImageLoaderOptions.Builder(img2,url)
-                .blurImage(true)
-                .blurValue(35)
-                .isCircle()
-                .placeholder(R.mipmap.ic_launcher).build();
-        //  LoaderEnum类型如果指定的话，一定要和application 中初始化指定的一致，不然找不到相应的加载库而无法加载
-        ImageLoaderManager.getInstance().showImage(options, LoaderEnum.FRESCO);
-
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,PhotoListActivity.class));
-
-            }
-        });
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,PhotoListActivity.class));
-
-            }
-        });
-
-        // 测试取消加载和恢复加载
-        // 暂停加载
-        ImageLoaderManager.getInstance().pause(this);
-        img1.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                // 恢复加载
-              ImageLoaderManager.getInstance().resume(MainActivity.this);
-            }
-        },2000);
+//        ImageLoaderOptions options=new ImageLoaderOptions.Builder(img2,url)
+//                .blurImage(true)
+//                .blurValue(35)
+//                .isCircle()
+//                .placeholder(R.mipmap.ic_launcher).build();
+//        //  LoaderEnum类型如果指定的话，一定要和application 中初始化指定的一致，不然找不到相应的加载库而无法加载
+//        ImageLoaderManager.getInstance().showImage(options, LoaderEnum.FRESCO);
+//
+//        btn1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(MainActivity.this,PhotoListActivity.class));
+//
+//            }
+//        });
+//        btn2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(MainActivity.this,PhotoListActivity.class));
+//
+//            }
+//        });
+//
+//        // 测试取消加载和恢复加载
+//        // 暂停加载
+//        ImageLoaderManager.getInstance().pause(this);
+//        img1.postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                // 恢复加载
+//              ImageLoaderManager.getInstance().resume(MainActivity.this);
+//            }
+//        },2000);
     }
-
 
 }

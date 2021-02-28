@@ -2,9 +2,7 @@ package com.ladingwu.glidelibrary;
 
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.NonNull;
-
-import com.lasingwu.baselibrary.OnLoaderProgressCallback;
+import androidx.annotation.NonNull;
 
 import java.io.IOException;
 

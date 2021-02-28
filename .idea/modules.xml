@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ImageLoaderFramework.iml" filepath="$PROJECT_DIR$/ImageLoaderFramework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fresco/fresco.iml" filepath="$PROJECT_DIR$/fresco/fresco.iml" />
-      <module fileurl="file://$PROJECT_DIR$/glide/glide.iml" filepath="$PROJECT_DIR$/glide/glide.iml" />
-      <module fileurl="file://$PROJECT_DIR$/imageloader-framework/imageloader-framework.iml" filepath="$PROJECT_DIR$/imageloader-framework/imageloader-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageLoaderFramework.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageLoaderFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ImageLoaderFramework.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ImageLoaderFramework.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fresco/ImageLoaderFramework.fresco.iml" filepath="$PROJECT_DIR$/.idea/modules/fresco/ImageLoaderFramework.fresco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/glide/ImageLoaderFramework.glide.iml" filepath="$PROJECT_DIR$/.idea/modules/glide/ImageLoaderFramework.glide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imageloader-framework/ImageLoaderFramework.imageloader-framework.iml" filepath="$PROJECT_DIR$/.idea/modules/imageloader-framework/ImageLoaderFramework.imageloader-framework.iml" />
     </modules>
   </component>
 </project>
